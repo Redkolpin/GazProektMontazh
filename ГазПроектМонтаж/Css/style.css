@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background: #070a1b;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 120%;
+    color:#fff
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+background-image: url(../Images/valtokep_20170822163341_crop.jpg);
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+}
+
+.header_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:100vh;
+}
+
+.header_title{
+    font-family: 'Oswald', sans-serif;
+}
+
+.list{
+    display: flex;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0 40px;
+    align-items: center;
+}
+.menu {
+    width: 100%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    padding: 10px 0 10px;
+    background-color: #2c3136;
+    border-radius: 22px;
+}
+
+.header_phone{
+    font-size: 16px;
+    line-height: 130%;
+    color:#fff;
+    font-weight: 700;
+}
+
+.header_pnone_num {
+    font-weight: 400;
+    margin-left: 19px;
+    padding: 12px 31px 13px;
+    background-color: #54b9f7;
+    border-radius: 22px;
+}
+
+.header_email_mail {
+    font-weight: 400;
+    margin-left: 19px;
+    padding: 12px 31px 13px;
+    background-color: #54b9f7;
+    border-radius: 22px;
+}
+
+.menu_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+}
