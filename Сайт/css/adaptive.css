@@ -1,0 +1,302 @@
+/*
+Когда разрешение экрана будет 1000px и меньше, мы будем менять разрешение самого блока слайдера и разрешение картинки
+ */
+
+@media (max-width: 1000px) {
+    .slider {
+        width:700px;
+        height: 400px;
+    }
+    .slider .item img {
+        height: 400px;
+    }
+
+    .about_usluga{
+        width: 700px;
+        height:300px;
+    }
+
+    .about_usluga_text{
+        font-size: 15px;
+
+    }
+    .about_usluga_link {
+        font-size: 15px;
+    }
+
+    .about_usluga_title{
+        font-size: 18px;
+    }
+    .menu{
+        width: 700px;
+    }
+
+    .forma_obratnoi_svyazi{
+    background:#E4E7FF;
+    width:700px;
+    margin-left: 5px;
+}
+
+.about_usluga_full{
+    display: grid;
+    width: 700px;
+    height:500px;
+    grid-template-columns: 225px 475px;
+    grid-gap: 5px;
+    background-color: #bde0ff;
+}
+.about_usluga_text_full{
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+}   
+.usluga_image_full{
+    width: 200px;
+    height: 150px;
+    border: 5px solid #54b9f7;
+    margin: 10px;
+}
+
+.usluga_image_1{
+    float: right;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border: 5px solid #54b9f7;
+}
+
+.about_usluga_full1{
+    display: grid;
+    width: 700px;
+    height:900px;
+    grid-template-columns: 225px 475px;
+    grid-gap: 5px;
+    background-color: #bde0ff;
+}
+
+.about_usluga_full2{
+display: grid;
+    width: 700px;
+    height:700px;
+    grid-template-columns: 225px 475px;
+    grid-gap: 5px;
+    background-color: #bde0ff
+}
+
+}
+
+/*
+Когда разрешение экрана будет 700px и меньше, зададим элементам flex-direction column чтоб элеметы выстроились не в линию а в колонку и так же уменшим не много разрешение картинки
+ */
+@media (max-width: 700px) {
+    .header_titleAndPhone {
+        flex-direction: column;
+    }
+
+    .menu_list {
+        flex-direction: column;
+    }
+
+    .menu_item {
+        margin-bottom: 20px;
+    }
+
+    .menu{
+        width: 420px;
+    }
+
+    .slider {
+        width: 400px;
+        height: 300px;
+    }
+    .slider .item img {
+        height: 300px;
+    }
+
+    .about_usluga{
+        display: grid;
+        grid-template-columns: 145px 275px;
+        width: 420px;
+        height: 250px;
+    }
+
+    .about_usluga_text{
+        margin-right: 50px;
+        font-size: 10px;
+        color: black;
+    }
+    .about_usluga_link {
+        font-size: 10px;
+    }
+
+    .about_usluga_title{
+        font-size: 12px;
+    }
+
+    .usluga_image{
+        width: 120px;
+        height: 150px;
+}
+
+.forma_obratnoi_svyazi{
+    background:#E4E7FF;
+    width: 420px;
+    margin-left: 5px;
+}
+
+.about_usluga_full{
+    display: grid;
+    width: 420px;
+    height:500px;
+    grid-template-columns: 135px 275px;
+    grid-gap: 5px;
+    background-color: #bde0ff;
+}
+.about_usluga_text_full{
+    margin-top: 20px;
+    font-size: 10px;
+    color: black;
+}   
+.usluga_image_full{
+    width: 120px;
+    height: 150px;
+    border: 5px solid #54b9f7;
+    margin: 10px;
+}
+
+.usluga_image_1{
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 5px solid #54b9f7;
+}
+
+.about_usluga_full1{
+    display: grid;
+    width: 420px;
+    height:950px;
+    grid-template-columns: 135px 275px;
+    grid-gap: 5px;
+    background-color: #bde0ff;
+}
+
+.about_usluga_full2{
+    display: grid;
+    width: 420px;
+    height:850px;
+    grid-template-columns: 135px 275px;
+    grid-gap: 5px;
+    background-color: #bde0ff
+}
+
+}
+/*
+Когда разрешение экрана будет 400px и меньше, уменьшим блок с картинками
+ */
+@media (max-width: 400px) {
+
+    .slider {
+        height: 200px;
+    }
+    .slider .item img {
+        height: 200px;
+    }
+
+    .menu{
+        width: 315px;
+    }
+
+    .about_usluga{
+        display: grid;
+        grid-template-columns: 120px 200px;
+        width: 320px;
+        height: 200px;
+        grid-gap: 10px;
+    }
+
+    .usluga_image{
+        width: 100px;
+        height: 125px;
+        margin: 5px;
+    }
+
+    .about_usluga_text{
+            margin-top: 1px;
+            font-size: 8px;
+            color: black;
+        }
+    .about_usluga_link {
+            font-size: 8px;
+        }
+    
+    .about_usluga_title{
+            font-size: 12px;
+        }
+
+    .forma_obratnoi_svyazi{
+            background:#E4E7FF;
+            width:320px;
+            margin-left: 5px;
+        }
+
+    .form_label{
+            font-size:9px;
+            color: black;
+        }
+        
+    .form_label1{
+            font-size:9px;
+            color: black;
+        }
+
+    .forma_title{
+            color: black;
+            font-size: 12px;
+        }
+        .about_usluga_full{
+            display: grid;
+            width: 320px;
+            height:650px;
+            grid-template-columns: 125px 175px;
+            grid-gap: 5px;
+            background-color: #bde0ff;
+        }
+        .about_usluga_text_full{
+            margin-top: 20px;
+            font-size: 10px;
+            color: black;
+        }   
+        .usluga_image_full{
+            width: 100px;
+            height: 125px;
+            border: 5px solid #54b9f7;
+            margin: 10px;
+        }
+        
+        .usluga_image_1{
+            float: right;
+            width: 150px;
+            height: 125px;
+            margin: 10px;
+            border: 5px solid #54b9f7;
+        }
+
+        .about_usluga_full1{
+            display: grid;
+            width: 320px;
+            height:1140px;
+            grid-template-columns: 110px 205px;
+            grid-gap: 5px;
+            background-color: #bde0ff;
+        }
+        
+        .about_usluga_full2{
+            display: grid;
+            width: 320px;
+            height: 920px;
+            grid-template-columns: 110px 205px;
+            grid-gap: 5px;
+            background-color: #bde0ff
+}
+}
